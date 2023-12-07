@@ -16,7 +16,7 @@ def safely_get_value(dct: Mapping, key: Any,
             default value
     
     Returns:
-        Union[Any, TypeVar['T']]: value
+        Union[Any, TypeVar('T')]: value
     """
     if key in dct:
         return dct[key]
